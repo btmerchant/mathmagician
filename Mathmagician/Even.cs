@@ -6,10 +6,12 @@ using System.Threading.Tasks;
 
 namespace Mathmagician
 {
-    class Program
+    public class Even : Integer
     {
-        static void Main(string[] args)
+        public Even()
         {
+            Step = 2;
+            First = 2;
         }
     }
 }
