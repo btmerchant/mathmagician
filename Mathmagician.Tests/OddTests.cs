@@ -7,14 +7,14 @@ namespace Mathmagician.Tests
     public class OddTests
     {
         [TestMethod]
-        public void EvenEnsureICanCreateInstance()
+        public void OddEnsureICanCreateInstance()
         {
             Odd my_odds = new Odd();
             Assert.IsNotNull(my_odds);
         }
 
         [TestMethod]
-        public void EvenEnsureICanGetFirst()
+        public void OddEnsureICanGetFirst()
         {
             // Arrange
             Odd my_odds = new Odd();
@@ -28,7 +28,7 @@ namespace Mathmagician.Tests
         }
 
         [TestMethod]
-        public void EvenEnsureICanGetNext()
+        public void OddEnsureICanGetNext()
         {
             // Arrange
             Odd my_odds = new Odd();
@@ -42,7 +42,7 @@ namespace Mathmagician.Tests
         }
 
         [TestMethod]
-        public void EvenIntegerEnsureICanCreateASequenceOfTen()
+        public void OddIntegerEnsureICanCreateASequenceOfTen()
         {
             // Arrange
             Odd my_odds = new Odd();
